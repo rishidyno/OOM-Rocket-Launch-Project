@@ -4,7 +4,9 @@
 class ControlUnit
 {
 public:
-    void InitialisingPreparationForLaunch();
-    void StartingLaunchSequence();
+    void SelectRocketType();
+    void CheckAllSystem();
+    void InitialingLaunchSequence();
+    void Stage1TELEMETARY();
 };
 #endif
