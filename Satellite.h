@@ -5,12 +5,16 @@
 
 using namespace std;
 
-class Satellite:public Rocket
+class Satellite : public Rocket
 {
+private:
+    long double orbitalRadius;
+
 public:
     Satellite();
-    
+    ~Satellite();
+    void loadTheSatellite();
+    void checkSuccessfulLoading();
 };
-
 
 #endif
