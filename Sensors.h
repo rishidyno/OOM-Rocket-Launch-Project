@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 #include "Rocket.h"
 // using namespace std;
+#ifndef SENSORS_H
 #define SENSORS_H
-#ifdef SENSORS_H
 class Sensors : public Rocket
 {
     public:

@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
+#ifndef CONTROL_UNIT_H
 #define CONTROL_UNIT_H
-#ifdef CONTROL_UNIT_H
 class ControlUnit
 {
 public:
