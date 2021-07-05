@@ -1,7 +1,7 @@
 all: Simulator
 
-Simulator: AirConditioner.h AirConditioner.cpp Freezer.h Freezer.cpp CoolingUnit.h CoolingUnit.cpp Compressor.h Compressor.cpp Simulator.cpp
-	g++ -o Simulator Simulator.cpp AirConditioner.cpp Freezer.cpp CoolingUnit.cpp Compressor.cpp
+Simulator: Rocket.h Rover.h SpaceExploration.h Satellite.h ControlUnit.h Rocket.cpp Rover.cpp SpaceExploration.cpp Satellite.cpp ControlUnit.cpp 
+	g++ -o Simulator Simulator.cpp Rocket.cpp Rover.cpp SpaceExploration.cpp Satellite.cpp ControlUnit.cpp
 
 clean:
 	rm -f Simulator
