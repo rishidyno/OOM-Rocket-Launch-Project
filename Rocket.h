@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
-#ifndef ROCKET_H
 #define ROCKET_H
+#ifdef ROCKET_H
 using namespace std;
 class Rocket
 {
