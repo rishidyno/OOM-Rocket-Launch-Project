@@ -1,11 +1,11 @@
 #include <bits/stdc++.h>
+#ifndef ROCKET_H
 #define ROCKET_H
-#ifdef ROCKET_H
 using namespace std;
 class Rocket
 {
 private:
-    string id, name,fuel_type,oxidiser;
+    string id, name, fuel_type, oxidiser;
 
 public:
     Rocket();

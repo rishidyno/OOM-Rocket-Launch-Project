@@ -13,7 +13,7 @@ Rocket::Rocket()
 
 Rocket::~Rocket()
 {
-    printf("the Rocket %s with id %s type %s\n has compelted its mission", name, id, fuel_type);
+    cout<< "The Rocket with name " << name << "and id"<<  id << "fuel type " << fuel_type << endl;
 }
 
 void Rocket::fillFuel()
