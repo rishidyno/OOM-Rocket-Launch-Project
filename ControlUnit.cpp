@@ -8,7 +8,25 @@ void ControlUnit::SelectRocketType()
 }
 void ControlUnit::CheckAllSystem()
 {
-    printf("Rocket is about to get launched\n Starting Launch Sequence\n");
+    printf("Final Check all necessary systems ! \n ");
+    sleep(2);
+    printf("Cryogenic engine check successful !\n");
+    sleep(2);
+    printf("Fuel check successful !\n");
+    sleep(2);
+    printf("Thermal screening check succesful!");
+    sleep(2);
+    printf("All System check successful !\n");
+    sleep(2);
+    printf("Communication System check succesful !\n");
+    sleep(2);
+    printf("Rocket ready for launch!\n");
+    sleep(2);
+}
+
+void ControlUnit::InitialingLaunchSequence()
+{
+    std::cout<<"Initialing Launch Sequence";
     int i = 10;
     while (i >= 0)
     {
@@ -16,12 +34,16 @@ void ControlUnit::CheckAllSystem()
         sleep(1);
         i--;
     }
+    std::cout << "";
 }
 
-void ControlUnit::InitialingLaunchSequence()
+void RocketLauncingGraphics()
 {
+
 }
 
 void ControlUnit::Stage1TELEMETARY()
 {
+    
+
 }
