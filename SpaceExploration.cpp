@@ -22,7 +22,7 @@ SpaceExploration::~SpaceExploration()
 void SpaceExploration::checkPayload()
 {
     sleep(2);
-    printf("Payload %ld checking is initiated\n",total_payload);
+    printf("Payload %lf checking is initiated\n",total_payload);
     sleep(2);
     printf("Payload is under the red mark and is docked into the rocket\n");
 }
