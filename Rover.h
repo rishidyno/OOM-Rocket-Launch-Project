@@ -7,14 +7,14 @@ using namespace std;
 
 class Rover : public Rocket
 {
-private:
-    string destination;
-
-public:
-    Rover();
-    ~Rover();
-    void loadRover();
-    void checkSuccessfulLoading();
+    private:
+        string destination;
+    
+    public:
+        Rover();
+        ~Rover();
+        void loadRover();
+        void checkSuccessfulLoading();
 };
 
 #endif

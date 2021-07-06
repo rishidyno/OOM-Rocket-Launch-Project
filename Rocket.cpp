@@ -4,7 +4,7 @@
 #include <unwind.h>
 Rocket::Rocket()
 {  
-    printf("Enter your rocket name");
+    printf("Enter your rocket name ");
     cin >> name;
     fuel_type = "Hydrogen";
     id = to_string(time(0));
@@ -13,7 +13,7 @@ Rocket::Rocket()
 
 Rocket::~Rocket()
 {
-    printf("the Rocket %s with id %s type %s\n has compelted its mission", name, id, fuel_type);
+    printf("the Rocket %s with id %s type %s\n has completed its mission", name, id, fuel_type);
 }
 
 void Rocket::fillFuel()
@@ -21,7 +21,7 @@ void Rocket::fillFuel()
     sleep(2);
     printf("liquid hydrogen  is filling in the rocket\n");
     sleep(2);
-    printf("fuel is filled\n");
+    printf("Fuel is filled\n");
 }
 
 void Rocket::setOxidiser()
@@ -49,4 +49,7 @@ string Rocket::getId()
 string Rocket::getName()
 {
     return id;
+}
+void Rocket::loadRover(){
+    
 }

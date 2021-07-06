@@ -8,7 +8,7 @@ using namespace std;
 Rover::Rover()
 {
     printf("Enter the destination of the rover\n");
-    getline(cin, destination);
+    cin>>destination;
     sleep(2);
     printf("Rover is unloading  and is about to get launched in the orbit \n");
     sleep(2);
