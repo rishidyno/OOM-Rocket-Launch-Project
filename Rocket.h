@@ -19,7 +19,9 @@ class Rocket
         string getName();
         string getId();
         string getType();
-        virtual void loadRover();
+        virtual void loadRover(){
+            
+        }
 };
 
 #endif

@@ -50,6 +50,3 @@ string Rocket::getName()
 {
     return id;
 }
-void Rocket::loadRover(){
-    
-}
