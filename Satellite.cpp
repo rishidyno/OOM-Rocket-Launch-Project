@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include "Rocket.h"
+#include "SpaceMission.h"
 #include "Satellite.h"
 #include "unistd.h"
 #include "unwind.h"
@@ -28,5 +28,5 @@ void Satellite::checkSuccessfulLoading()
 void Satellite::loadTheSatellite()
 {
     sleep(2);
-    printf("Satellite is loading the rocket and is ready to launch in the orbit");
+    printf("Satellite is loading the SpaceMission and is ready to launch in the orbit");
 }

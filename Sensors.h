@@ -1,10 +1,10 @@
 #include <bits/stdc++.h>
-#include "Rocket.h"
+#include "SpaceMission.h"
 // using namespace std;
 #ifndef SENSORS_H
 #define SENSORS_H
 
-class Sensors : public Rocket
+class Sensors : public SpaceMission
 {
     public:
         double gyroscope, accelerometer, gps, Theodolite;

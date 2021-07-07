@@ -2,9 +2,9 @@
 #include "ControlUnit.h"
 #include "unistd.h"
 #include "unwind.h"
-void ControlUnit::SelectRocketType()
+void ControlUnit::SelectSpaceMissionType()
 {
-    printf("Prepareing the rocket components for launch");
+    printf("Prepareing the SpaceMission components for launch");
 }
 void ControlUnit::CheckAllSystem()
 {
@@ -20,7 +20,7 @@ void ControlUnit::CheckAllSystem()
     sleep(2);
     printf("Communication System check succesful !\n");
     sleep(2);
-    printf("Rocket ready for launch!\n");
+    printf("SpaceMission ready for launch!\n");
     sleep(2);
 }
 
@@ -37,7 +37,7 @@ void ControlUnit::InitialingLaunchSequence()
     std::cout << "";
 }
 
-void RocketLauncingGraphics()
+void SpaceMissionLauncingGraphics()
 {
 
 }

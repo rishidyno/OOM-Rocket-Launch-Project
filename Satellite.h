@@ -1,11 +1,11 @@
 #include <bits/stdc++.h>
-#include "Rocket.h"
+#include "SpaceMission.h"
 #ifndef SATELLITE_H
 #define SATELLITE_H
 
 using namespace std;
 
-class Satellite : public Rocket
+class Satellite : public SpaceMission
 {
 private:
     long double orbitalRadius;

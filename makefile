@@ -1,7 +1,7 @@
 all: Simulator
 
-Simulator: Rocket.h Rover.h SpaceExploration.h Satellite.h ControlUnit.h Rocket.cpp Rover.cpp SpaceExploration.cpp Satellite.cpp ControlUnit.cpp 
-	g++ -o Simulator Simulator.cpp Rocket.cpp Rover.cpp SpaceExploration.cpp Satellite.cpp ControlUnit.cpp
+Simulator: SpaceMission.h Rover.h HumanSpaceMission.h Satellite.h ControlUnit.h SpaceMission.cpp Rover.cpp HumanSpaceMission.cpp Satellite.cpp ControlUnit.cpp 
+	g++ -o Simulator Simulator.cpp SpaceMission.cpp Rover.cpp HumanSpaceMission.cpp Satellite.cpp ControlUnit.cpp
 
 clean:
 	rm -f Simulator
