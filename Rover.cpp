@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include "Rocket.h"
+#include "SpaceMission.h"
 #include "Rover.h"
 #include "unistd.h"
 #include "unwind.h"
@@ -19,14 +19,14 @@ Rover::~Rover()
     sleep(2);
     printf("Rover mission successful\n");
 }
-void Rover::checkSuccessfulLoading()
+void Rover::check_successful_loading()
 {
     printf("performing rover loading checkes\n");
     sleep(2);
     printf("All checks of rover are successful\n");
 }
-void Rover::loadRover()
+void Rover::load_rover_in_rocket()
 {
     sleep(2);
-    printf("Rover is loading the rocket and is ready to launch in the orbit");
+    printf("Rover is loading the SpaceMission and is ready to launch in the orbit");
 }
