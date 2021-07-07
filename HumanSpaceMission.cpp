@@ -1,13 +1,13 @@
 #include <bits/stdc++.h>
+#include "HumanSpaceMission.h"
 #include "SpaceMission.h"
-#include "HumanSpaceMission"
 #include "unistd.h"
 #include "unwind.h"
 using namespace std;
 
 HumanSpaceMission::HumanSpaceMission()
 {
-    printf("Enter the number_of_passengers and number_of_astraunauts and total_payload in the SpaceMission for the space exploration mission\n");
+    printf("Enter the number_of_passengers and number_of_astraunauts and total_payload in the SpaceMission for the space exploration SpaceMission\n");
     cin >> number_of_astraunauts;
     cin >> number_of_passengers;
     cin >> total_payload;
@@ -17,7 +17,7 @@ HumanSpaceMission::HumanSpaceMission()
 HumanSpaceMission::~HumanSpaceMission()
 {
     sleep(2);
-    printf("HumanSpaceMission mission successful ended\n");
+    printf("HumanSpaceMission SpaceMission successful ended\n");
 }
 void HumanSpaceMission::checkPayload()
 {

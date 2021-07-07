@@ -5,7 +5,7 @@
 
 char *fname[] = {
     "GO !!!",                // DEAFULT_FONT
-    "MISSION ACCOMPLISHED!", // TRIPLEX_FONT
+    "SpaceMission ACCOMPLISHED!", // TRIPLEX_FONT
     "SMALL font",            // SMALL_FONT
     "SANS SERIF font",       // SANS_SERIF_FONT
     "Gothic!"                // GOTHIC_FONT

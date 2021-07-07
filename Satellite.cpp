@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
-#include "SpaceMission.h"
 #include "Satellite.h"
-#include "unistd.h"
-#include "unwind.h"
+#include "SpaceMission.h"
+#include <unistd.h>
 using namespace std;
 
 Satellite::Satellite()
@@ -17,7 +16,7 @@ Satellite::Satellite()
 Satellite::~Satellite()
 {
     sleep(2);
-    printf("Satellite mission successful\n");
+    printf("Satellite SpaceMission successful\n");
 }
 void Satellite::checkSuccessfulLoading()
 {

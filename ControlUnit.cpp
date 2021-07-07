@@ -1,20 +1,26 @@
 #include <bits/stdc++.h>
+#include "Rover.h"
+#include "SpaceMission.h"
 #include "ControlUnit.h"
-#include "unistd.h"
-#include "unwind.h"
-void ControlUnit::SelectSpaceMissionType()
-{
-    printf("Prepareing the SpaceMission components for launch");
+#include <unistd.h>
+using namespace std;
+
+void ControlUnit::check_payload(){
+    cout << "--------------------------------------\n";
+    cout << "checking payload\n";
+    cout << "payload checked successfully !\n";
 }
-void ControlUnit::CheckAllSystem()
-{
-    printf("Final Check all necessary systems ! \n ");
+
+void ControlUnit::check_all_system_status()
+{   
+    cout <<"--------------------------------------\n";
+    printf("Final Checking all necessary systems ! \n");
     sleep(2);
     printf("Cryogenic engine check successful !\n");
     sleep(2);
     printf("Fuel check successful !\n");
     sleep(2);
-    printf("Thermal screening check succesful!");
+    printf("Thermal screening check succesful!\n");
     sleep(2);
     printf("All System check successful !\n");
     sleep(2);
@@ -22,28 +28,27 @@ void ControlUnit::CheckAllSystem()
     sleep(2);
     printf("SpaceMission ready for launch!\n");
     sleep(2);
+    cout << "--------------------------------------\n";
 }
 
-void ControlUnit::InitialingLaunchSequence()
+void ControlUnit::iniatialising_launch_sequence()
 {
-    std::cout<<"Initialing Launch Sequence";
+    cout<<"Initialing Launch Sequence";
     int i = 10;
     while (i >= 0)
     {
-        std::cout<<i<<"\n";
+        cout<<i<<"\n";
         sleep(1);
         i--;
     }
-    std::cout << "";
+    for(int i = 0; i < 3; i++){
+        cout<<".";
+        sleep(1);
+    }
+    cout<<endl;
 }
 
-void SpaceMissionLauncingGraphics()
+void ControlUnit::mission_success()
 {
-
-}
-
-void ControlUnit::Stage1TELEMETARY()
-{
-    
-
+    cout<<"Congratulations mission is successful!\n";
 }

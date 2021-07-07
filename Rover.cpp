@@ -7,18 +7,23 @@ using namespace std;
 
 Rover::Rover()
 {
-    printf("Enter the destination of the rover\n");
-    cin>>destination;
-    sleep(2);
-    printf("Rover is unloading  and is about to get launched in the orbit \n");
-    sleep(2);
-    printf("Rover has launched in the orbit and now is ready to send and receive signals to communicate\n");
+    printf("Enter the destination of the rover : \n");
+    getline(cin,destination);
+    sleep(1);
+
+    printf("Enter weight of rover : \n");
+    cin>>weight_of_rover;
+    sleep(1);
 }
-Rover::~Rover()
-{
-    sleep(2);
-    printf("Rover mission successful\n");
-}
+
+// void Rover::set_destination(string s){
+//     destination = s;
+// }
+
+// void Rover::set_weight_of_rover(int n){
+//     weight_of_rover = n;
+// }
+
 void Rover::check_successful_loading()
 {
     printf("performing rover loading checkes\n");
@@ -28,5 +33,5 @@ void Rover::check_successful_loading()
 void Rover::load_rover_in_rocket()
 {
     sleep(2);
-    printf("Rover is loading the SpaceMission and is ready to launch in the orbit");
+    printf("Rover is loading and is ready to launch in the orbit");
 }
