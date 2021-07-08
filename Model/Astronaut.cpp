@@ -15,13 +15,21 @@ in:
     string sex;
     cin >> sex;
     if (sex == "MALE" | sex == "male" || sex == "M" || sex == "m")
+    {
         this->gender = Astronaut::Gender::MALE;
+    }
     else if (sex == "FEMALE" || sex == "female" || sex == "F" || sex == "f")
+    {
         this->gender = Astronaut::Gender::FEMALE;
-    else if (sex == "TRANSGENDER" || sex == "transgender" || sex == "F" || sex == "f")
+    }
+    else if (sex == "TRANSGENDER" || sex == "transgender" || sex == "T" || sex == "t")
+    {
         this->gender = Astronaut::Gender::TRANSGENDER;
+    }
     else
+    {
         goto in;
+    }
 }
 
 void Astronaut::setName(string name)
@@ -33,10 +41,6 @@ void Astronaut::printName()
     cout << name << "\n";
 }
 
-void Astronaut::setAge(int age)
-{
-    this->age = age;
-}
 void Astronaut::setAge(int age)
 {
     this->age = age;

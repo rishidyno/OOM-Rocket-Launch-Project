@@ -3,16 +3,16 @@
 #include "Rover.h"
 #include "unistd.h"
 #include "unwind.h"
-using namespace std; 
+using namespace std;
 
 Rover::Rover()
 {
     printf("Enter the destination of the rover : \n");
-    getline(cin,destination);
+    getline(cin, destination);
     sleep(1);
 
     printf("Enter weight of rover : \n");
-    cin>>weight_of_rover;
+    cin >> weight_of_rover;
     sleep(1);
 }
 
