@@ -6,6 +6,7 @@ using namespace std;
 class Astronaut
 {
 public:
+    static int count;
     enum Gender
     {
         MALE,

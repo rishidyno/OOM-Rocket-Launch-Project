@@ -6,7 +6,7 @@ using namespace std;
 
 Satellite::Satellite()
 {
-    printf("Enter the orbital orbital Radius of your satellite from the earth centre\n");
+    printf("Enter the orbital Radius of your satellite from the earth centre (in 1000km)\n");
     cin >> orbitalRadius;
     sleep(2);
 }

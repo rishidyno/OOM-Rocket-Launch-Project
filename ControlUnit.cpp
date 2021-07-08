@@ -26,14 +26,14 @@ void ControlUnit::check_all_system_status()
     sleep(2);
     printf("Communication System check succesful !\n");
     sleep(2);
-    printf("SpaceMission ready for launch!\n");
+    printf("Mission is ready to go!\n");
     sleep(2);
     cout << "--------------------------------------\n";
 }
 
 void ControlUnit::iniatialising_launch_sequence()
 {
-    cout<<"Initialing Launch Sequence";
+    cout<<"Initialing Launch Sequence\n";
     int i = 10;
     while (i >= 0)
     {
@@ -49,6 +49,6 @@ void ControlUnit::iniatialising_launch_sequence()
 }
 
 void ControlUnit::mission_success()
-{
-    cout<<"Congratulations mission is successful!\n";
+{ 
+    cout<<"Congratulations mission is completed successfully!\n";
 }

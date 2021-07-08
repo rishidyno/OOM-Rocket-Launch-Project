@@ -11,7 +11,7 @@ HumanSpaceMission::HumanSpaceMission()
     getline(cin, destination);
     sleep(1);
 
-    printf("Total number of Crew Members selected for this Mg O\n");
+    printf("Enter Total number of Crew Members selected for this Mission : ");
     cin >> number_of_crew_members;
     sleep(1);
     addAstraunautsToTheMission();

@@ -2,14 +2,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-Astronaut::Astronaut()
-{
-    printf("Enter the name of the Astronaut\n");
-    cin >> name;
-    printf("Enter the age of the Astronaut\n");
-    cin >> age;
+int Astronaut::count = 1;
 
-    printf("Enter the gender of the Astronaut MALE or FEMALE or TRANSGENDER\n");
+Astronaut::Astronaut()
+{   
+    cout<<"Enter the name of the Astronaut "<<count<<" : ";
+    cin >> name;
+    cout<<"Enter the age of the Astronaut "<<count<<" : ";
+    cin >> age;
+    count++;
+
+    printf("Enter the gender of the Astronaut MALE or FEMALE or TRANSGENDER : ");
 in:
     // Astronaut::Gender gender;
     string sex;

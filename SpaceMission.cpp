@@ -1,14 +1,17 @@
 #include <bits/stdc++.h>
 #include "SpaceMission.h"
 #include <unistd.h>
+using namespace std;
 
 SpaceMission::SpaceMission()
 {
     cout << "Enter name of Space Mission : ";
+    cin.ignore();
     getline(cin, mission_name);
     cout << "Enter purpose of Space Mission : ";
-    //getline(cin, purpose_of_mission);
     getline(cin, purpose_of_mission);
+    cout << "----------------------------------------\n";
+    sleep(1);
     about();
 }
 

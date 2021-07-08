@@ -2,6 +2,7 @@
 #ifndef Mission_H
 #define Mission_H
 using namespace std;
+
 class SpaceMission
 {
     private:

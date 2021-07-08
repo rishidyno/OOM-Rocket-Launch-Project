@@ -1,17 +1,17 @@
 #include <bits/stdc++.h>
 #include "SpaceMission.h"
 #include "Rover.h"
-#include "unistd.h"
+#include "unistd.h" 
 #include "unwind.h"
 using namespace std;
 
 Rover::Rover()
 {
-    printf("Enter the destination of the rover : \n");
+    printf("Enter the destination of the rover : ");
     getline(cin, destination);
     sleep(1);
 
-    printf("Enter weight of rover : \n");
+    printf("Enter weight of rover : ");
     cin >> weight_of_rover;
     sleep(1);
 }
