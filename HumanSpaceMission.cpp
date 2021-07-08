@@ -14,7 +14,7 @@ HumanSpaceMission::HumanSpaceMission()
     printf("Total number of Crew Members selected for this Mg O\n");
     cin >> number_of_crew_members;
     sleep(1);
-
+    addAstraunautsToTheMission();
     printf("Passengers have boarded in the SpaceMission \n");
 }
 
@@ -25,3 +25,13 @@ HumanSpaceMission::HumanSpaceMission()
 //     sleep(2);
 //     printf("Payload is under the red mark and is docked into the SpaceMission\n");
 // }
+
+void HumanSpaceMission::addAstraunautsToTheMission()
+{
+    Astronaut* astronaut = (Astronaut*)malloc(sizeof(Astronaut)*number_of_crew_members);
+    for (int i = 0;i<number_of_crew_members; i++)
+    {
+        astronaut = new Astronaut();
+        astronaut++;
+    }
+}

@@ -1,0 +1,3 @@
+Q1.  If we have string in a class as a data type then how will the size of a class will be defined .
+
+Q2.
