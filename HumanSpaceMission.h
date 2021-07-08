@@ -13,10 +13,11 @@ private:
     string mission_name, destination;
     int number_of_crew_members;
     ControlUnit *control;
-    Astronaut* astronaut;
-    
+    Astronaut *astronaut;
+
 public:
     HumanSpaceMission();
+    void addAstraunautsToTheMission();
 };
 
 #endif

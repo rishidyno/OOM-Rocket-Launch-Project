@@ -4,10 +4,11 @@
 class Astronaut
 {
     public:
-        enum class Gender
+        enum  Gender
         {
             MALE,
-            FEMALE
+            FEMALE,
+            TRANSGENDER
         };
 
     private:
