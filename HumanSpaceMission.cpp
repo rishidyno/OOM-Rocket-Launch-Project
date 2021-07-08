@@ -6,23 +6,22 @@
 using namespace std;
 
 HumanSpaceMission::HumanSpaceMission()
-{
-    printf("Enter the number_of_passengers and number_of_astraunauts and total_payload in the SpaceMission for the space exploration SpaceMission\n");
-    cin >> number_of_astraunauts;
-    cin >> number_of_passengers;
-    cin >> total_payload;
-    sleep(2);
+{ 
+    cout << "Enter destination of the human space mission: ";
+    getline(cin, destination);
+    sleep(1);
+
+    printf("Total number of Crew Members selected for this Mg O\n");
+    cin >> number_of_crew_members;
+    sleep(1);
+
     printf("Passengers have boarded in the SpaceMission \n");
 }
-HumanSpaceMission::~HumanSpaceMission()
-{
-    sleep(2);
-    printf("HumanSpaceMission SpaceMission successful ended\n");
-}
-void HumanSpaceMission::checkPayload()
-{
-    sleep(2);
-    printf("Payload %lf checking is initiated\n",total_payload);
-    sleep(2);
-    printf("Payload is under the red mark and is docked into the SpaceMission\n");
-}
+
+// void HumanSpaceMission::checkPayload()
+// {
+//     sleep(2);
+//     printf("Payload %lf checking is initiated\n",total_payload);
+//     sleep(2);
+//     printf("Payload is under the red mark and is docked into the SpaceMission\n");
+// }

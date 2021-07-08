@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 #include "SpaceMission.h"
+#include "ControlUnit.h"
+#include "Model/Astronaut.h"
 #ifndef HumanSpaceMission_H
 #define HumanSpaceMission_H
 
@@ -8,13 +10,13 @@ using namespace std;
 class HumanSpaceMission : public SpaceMission
 {
 private:
-    int number_of_passengers;
-    int number_of_astraunauts;
-    double total_payload;
+    string mission_name, destination;
+    int number_of_crew_members;
+    ControlUnit *control;
+    Astronaut* astronaut;
+    
 public:
     HumanSpaceMission();
-    ~HumanSpaceMission();
-    void checkPayload();
 };
 
 #endif
