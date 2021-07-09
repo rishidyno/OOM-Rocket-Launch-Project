@@ -11,9 +11,7 @@ void static_rocket();
 void rocket_to_cam_pos();
 void rocket_in_motion();
 void mars(float radius);
-
 float i, j, count = 0, count1 = 0, count3 = 0, flag = 0, flag1 = 0, t = 0, f = 0, flag3 = 0;
-
 // fucntion to display the text content of the home screen
 void drawstring(int x, int y, char *s)
 {
@@ -725,9 +723,9 @@ void page()
     glEnd();
 
     drawstring(100, 400, "ROCKET LAUNCHING SIMULATION");
-    drawstring(100, 380, "NAME : DEBJYOTI GUHA");
+    drawstring(100, 380, "NAME : OOM PRoject Launching");
     drawstring(100, 360, "USN : 1MJ16CS041");
-    drawstring(100, 340, "SEM : VI");
+    drawstring(100, 340, "SEM : II");
 
     glBegin(GL_LINE_LOOP);
     glVertex2d(75, 75);
