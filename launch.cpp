@@ -774,7 +774,7 @@ int main(int argc, char *argv[])
     glutKeyboardFunc(keyboard);
     glutDisplayFunc(display);
     glutIdleFunc(display);
-
     glutMainLoop();
     return 0;
+    map<int, stack<tuple<int, string, string,string,string,string,string,string>>> record_students;
 }

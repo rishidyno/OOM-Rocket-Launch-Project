@@ -9,7 +9,6 @@ class ControlUnit
         void check_payload();
         void check_all_system_status();
         void iniatialising_launch_sequence();
-        //void mission_status();
         void mission_success();
 
 };

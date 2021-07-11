@@ -16,7 +16,7 @@ public:
 
 private:
     string name, specialization;
-    int age;
+    string age;
     Gender gender;
 
 public:
@@ -30,7 +30,7 @@ public:
     void printName();
     string getName();
     string getGender();
-    int getAge();
+    string getAge(string);
     string getSpecialization();
 };
 
