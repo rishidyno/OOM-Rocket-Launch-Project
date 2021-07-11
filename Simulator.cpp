@@ -47,23 +47,24 @@ int main()
 	SpaceMission *mission;
 
 	cout << "    Select Type of SPACE MISSION: " << endl;
-	sleep(2);
+	sleep(1);
 	cout << "1. Rover" << endl;
-	sleep(2);
+	sleep(1);
 	cout << "2. Sattelite Launch" << endl;
-	sleep(2);
+	sleep(1);
 	cout << "3. Human Space Mission\n" << endl;
-	sleep(2);
+	sleep(1);
 
 	cout<<"🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀\n";
 	sleep(1);
+	in:	
 
 	cout << "🚀🚀  1-->        TAKES A ROVER TO A PLANET             🚀🚀\n";
-	sleep(2);
+	sleep(1);
 	cout << "🚀🚀  2-->     TAKES SATELLITE TO ORBIT OF EARTH        🚀🚀\n";
-	sleep(2);
+	sleep(1);
 	cout << "🚀🚀  3-->     FOR INTER PLANATORY MAN MISSIONS         🚀🚀\n";
-	sleep(2);
+	sleep(1);
 
 	cout << "Enter the tpye of mission You want to go on with ISRO...\n";
 
@@ -86,4 +87,11 @@ int main()
 		mission = new HumanSpaceMission();
 		simulate2(mission, c1);
 	}
-}
+	char ch;
+	cout << "q for quit\nPress c to go on another mission" << endl;
+	cin >> ch;
+	if (ch == 'c') 
+		goto in;
+	else
+		exit(0);
+	}

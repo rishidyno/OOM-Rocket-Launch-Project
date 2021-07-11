@@ -1,5 +1,36 @@
 {
-    "files.associations": {
-        "iostream": "cpp"
-    }
+  "files.associations": {
+    "iostream": "cpp",
+    "iosfwd": "cpp",
+    "atomic": "cpp",
+    "*.tcc": "cpp",
+    "bitset": "cpp",
+    "chrono": "cpp",
+    "cmath": "cpp",
+    "complex": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "vector": "cpp",
+    "optional": "cpp",
+    "string_view": "cpp",
+    "random": "cpp",
+    "fstream": "cpp",
+    "functional": "cpp",
+    "future": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "numeric": "cpp",
+    "ostream": "cpp",
+    "shared_mutex": "cpp",
+    "sstream": "cpp",
+    "streambuf": "cpp",
+    "regex": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "valarray": "cpp",
+    "variant": "cpp"
+  }
 }

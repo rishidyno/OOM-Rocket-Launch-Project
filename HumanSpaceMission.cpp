@@ -1,8 +1,10 @@
 #include <bits/stdc++.h>
 #include "HumanSpaceMission.h"
 #include "SpaceMission.h"
+#include "Model/Astronaut.h"
 #include "unistd.h"
 #include "unwind.h"
+#include "file.cpp"
 using namespace std;
 
 HumanSpaceMission::HumanSpaceMission()
@@ -14,7 +16,9 @@ HumanSpaceMission::HumanSpaceMission()
     printf("Enter Total number of Crew Members selected for this Mission : ");
     cin >> number_of_crew_members;
     sleep(1);
+    file *fin=new file(); 
     addAstraunautsToTheMission();
+    fin->store_details_of_astronaut(astronaut);
     printf("Passengers have boarded in the SpaceMission \n");
 }
 

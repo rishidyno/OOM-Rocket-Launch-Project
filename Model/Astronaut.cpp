@@ -8,7 +8,9 @@ Astronaut::Astronaut()
 {   
     cout<<"Enter the name of the Astronaut "<<count<<" : ";
     cin >> name;
-    cout<<"Enter the age of the Astronaut "<<count<<" : ";
+    cout << "Enter the specialization of the Astronaut";
+    cin >> specialization;
+    cout << "Enter the age of the Astronaut " << count << " : ";
     cin >> age;
     count++;
 
@@ -44,7 +46,7 @@ void Astronaut::printName()
     cout << name << "\n";
 }
 
-void Astronaut::setAge(int age)
+void Astronaut::setAge(string age)
 {
     this->age = age;
 }
@@ -67,4 +69,18 @@ string Astronaut::getName()
 string Astronaut::getSpecialization()
 {
     return specialization;
+}
+
+string Astronaut::getAge()
+{
+    return age;
+}
+string Astronaut::getGender()
+{
+    if(gender == MALE)
+    return "MALE";
+    else if(gender ==FEMALE)
+    return "FEMALE";
+    else
+    return "TRANSGENDER";
 }

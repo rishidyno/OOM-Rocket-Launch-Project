@@ -16,7 +16,7 @@ public:
 
 private:
     string name, specialization;
-    int age;
+    string age;
     Gender gender;
 
 public:
@@ -24,13 +24,13 @@ public:
 
     void setName(string);
     void setGender(Gender);
-    void setAge(int);
+    void setAge(string);
     void setSpecialization(string);
 
     void printName();
     string getName();
     string getGender();
-    int getAge();
+    string getAge();
     string getSpecialization();
 };
 
