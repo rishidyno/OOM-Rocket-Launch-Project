@@ -1,0 +1,3 @@
+NAME			SPECIALIZATION			AGE			GENDER
+fgdfgdgf			fgdfgdgf			12			MALE
+5646			56			12			FEMALE

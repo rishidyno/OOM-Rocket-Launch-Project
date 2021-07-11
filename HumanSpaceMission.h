@@ -11,7 +11,7 @@ class HumanSpaceMission : public SpaceMission
 {
 private:
     string mission_name, destination;
-    int number_of_crew_members;
+    string number_of_crew_members;
     ControlUnit *control;
     Astronaut *astronaut;
 

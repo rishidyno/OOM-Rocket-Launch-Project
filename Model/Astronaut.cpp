@@ -26,7 +26,7 @@ Astronaut::Astronaut()
     {
         // long long n = stoi(age);
 
-        if (check_number(age) & stoi(age) > 0 & stoi(age) < 101)
+        if (check_number(age))
         {
             cout << age << "\n";
             break;
@@ -34,7 +34,7 @@ Astronaut::Astronaut()
 
         else
         {
-            cout << "Enter a integer age less then 100\n";
+            cout << "Enter the valid age  \n";
             cin >> age;
         }
     }
