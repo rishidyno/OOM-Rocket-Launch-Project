@@ -40,7 +40,7 @@ Astronaut::Astronaut()
     }
     count++;
 
-    printf("Enter the gender of the Astronaut MALE or FEMALE or TRANSGENDER : ");
+    printf("Enter the gender of the Astronaut MALE for m or FEMALE for f or TRANSGENDER for t: ");
 in:
     // Astronaut::Gender gender;
     string sex;
@@ -59,6 +59,7 @@ in:
     }
     else
     {
+        cout << "Enter the correct gender \n";
         goto in;
     }
 }

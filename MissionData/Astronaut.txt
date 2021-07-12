@@ -13,3 +13,8 @@ yash			yash			14			MALE
 pankaj			pankaj			23			MALE
 deepanshu			deepanshu			32			MALE
 sar			sar			32			MALE
+fsdfsd			dsfsdf			21			TRANSGENDER
+rishi			aviation			19			MALE
+yash			engineering			19			MALE
+pankaj			mathematician			20			MALE
+deepanshu			chemical_engineering			22			MALE

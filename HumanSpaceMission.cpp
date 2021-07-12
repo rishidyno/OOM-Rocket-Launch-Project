@@ -29,15 +29,6 @@ HumanSpaceMission::HumanSpaceMission()
     fin->store_details_of_astronaut(astronaut);
     printf("Passengers have boarded in the SpaceMission \n");
 }
-
-// void HumanSpaceMission::checkPayload()
-// {
-//     sleep(2);
-//     printf("Payload %lf checking is initiated\n",total_payload);
-//     sleep(2);
-//     printf("Payload is under the red mark and is docked into the SpaceMission\n");
-// }
-
 void HumanSpaceMission::addAstraunautsToTheMission()
 {
     // Astronaut *astronaut = (Astronaut *)malloc(sizeof(Astronaut) * stoi(number_of_crew_members));
