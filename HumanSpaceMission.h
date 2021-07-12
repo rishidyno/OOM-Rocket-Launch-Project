@@ -13,7 +13,7 @@ private:
     string mission_name, destination;
     string number_of_crew_members;
     ControlUnit *control;
-    Astronaut *astronaut;
+    vector<Astronaut*> astronaut;
 
 public:
     HumanSpaceMission();

@@ -11,7 +11,7 @@ using namespace std;
 class file
 {
 public:
-    void store_details_of_astronaut(Astronaut *astronaut)
+    void store_details_of_astronaut(vector<Astronaut*> astronaut)
     {
         int number_of_crew_members = sizeof(astronaut) / sizeof(Astronaut *);
         ofstream ob("MissionData/Astronaut.txt", ios::app);
@@ -22,10 +22,10 @@ public:
         else
         {
             // ob << "NAME\t\t\tSPECIALIZATION\t\t\tAGE\t\t\tGENDER\n";
-            for (int i = 1; i <= number_of_crew_members; i++)
+            // Astronaut *ptr = astronaut;
+            for (auto i:astronaut)
             {
-                ob << astronaut->getName() << "\t\t\t" << astronaut->getSpecialization() << "\t\t\t" << astronaut->getAge() << "\t\t\t" << astronaut->getGender() << "\n";
-                astronaut++;
+                ob << i->getName() << "\t\t\t" << i->getSpecialization() << "\t\t\t" << i->getAge() << "\t\t\t" << i->getGender() << "\n";
             }
         }
     }

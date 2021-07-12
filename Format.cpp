@@ -34,9 +34,9 @@ public:
         cout << "||";
     }
 };
-int main()
-{
-    Format f;
-    f.print("Hello");
-    return 0;
-}
+// int main()
+// {
+//     Format f;
+//     f.print("Hello");
+//     return 0;
+// }

@@ -25,7 +25,7 @@ HumanSpaceMission::HumanSpaceMission()
 
     int n = stoi(nocm);
     addAstraunautsToTheMission();
-    file *fin=new file(); 
+    file *fin = new file();
     fin->store_details_of_astronaut(astronaut);
     printf("Passengers have boarded in the SpaceMission \n");
 }
@@ -40,10 +40,11 @@ HumanSpaceMission::HumanSpaceMission()
 
 void HumanSpaceMission::addAstraunautsToTheMission()
 {
-    Astronaut* astronaut = (Astronaut*)malloc(sizeof(Astronaut)*stoi(number_of_crew_members));
-    for (int i = 0;i<stoi(number_of_crew_members); i++)
+    // Astronaut *astronaut = (Astronaut *)malloc(sizeof(Astronaut) * stoi(number_of_crew_members));
+    // Astronaut *ptr = astronaut;
+    for (int i = 0; i < stoi(number_of_crew_members); i++)
     {
-        astronaut = new Astronaut();
-        astronaut++;
+        Astronaut *ptr=new Astronaut();
+        astronaut.push_back(ptr);
     }
 }

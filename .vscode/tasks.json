@@ -6,7 +6,8 @@
             "command": "/usr/bin/g++-9",
             "args": [
                 "-g",
-                "${file}",
+                "*.cpp",
+                "Model/*.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],

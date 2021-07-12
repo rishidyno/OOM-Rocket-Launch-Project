@@ -7,4 +7,3 @@ Simulator: SpaceMission.h SpaceMission.cpp Rover.h Rover.cpp HumanSpaceMission.h
 	./launch
 clean:
 	rm -f Simulator
-	rm -f launch
