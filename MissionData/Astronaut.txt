@@ -8,3 +8,8 @@ rishi			rishi			11			MALE
 deep			deep			11			MALE
 pank			pank			11			MALE
 kkkkkkkk			kkkkkkkkkk			11			TRANSGENDER
+rishi			rishi			4			MALE
+yash			yash			14			MALE
+pankaj			pankaj			23			MALE
+deepanshu			deepanshu			32			MALE
+sar			sar			32			MALE

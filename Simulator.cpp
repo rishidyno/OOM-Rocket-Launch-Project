@@ -4,7 +4,6 @@
 #include "SpaceMission.h"
 #include "HumanSpaceMission.h"
 #include "Satellite.h"
-#include "Sensors.h"
 #include "ControlUnit.h"
 #include "SpaceMission.h"
 #include "Rover.h"
